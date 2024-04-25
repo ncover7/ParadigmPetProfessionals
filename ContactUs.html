@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="logo-container">
+    <header>
+        <img src="resources/Logo1.png" alt="Paradigm Pet Professionals logo of a balloon dog in a circle" class="logo1">
+        <img src="resources/Logo2.png" alt="Paradigm Pet Professionals stylized name" class="logo2">
+    </header>
+</div>
+<header>
+    <div class="navbar">
+        <a href="Home.html">Home</a>
+        <a class="currentPage" href="ContactUs.html">Contact Us</a>
+        <div class="dropdown">
+            <button class="dropButton" tabindex="1">Pets</button>
+            <div class="dropdown-content">
+                <a href="Cats.html">Cats</a>
+                <a href="Dogs.html">Dogs</a>
+                <a href="SmallAnimals.html">Small Animals</a>
+            </div>
+        </div>
+        <a href="FAQs.html">FAQs</a>
+        <a href="AboutUs.html">About Us</a>
+        <div class="searchContainer">
+            <input type="text" placeholder="Search..." name="search">
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+</header>
+
+<div class="content">
+    <h1 class="title">Contact Us</h1>
+    <img class="contact" src="resources/Consult.png" alt="Two people sitting on a bench outside speaking over a tablet">
+    <h1 class="title">Contact us to book an appointment today!</h1>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" value="Elisa Maza"><br>
+        <label for="phonenumber">Phone number:</label><br>
+        <input type="tel" id="phonenumber" name="phonenumber" value="867-5309"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="example@gmail.com"><br>
+        <label for="timezone">Time zone:</label><br>
+        <input type="text" id="timezone" name="timezone" value="Central"><br>
+        <label for="petname">Pet's Name:</label><br>
+        <input type="text" id="petname" name="petname" value="Bronx"><br>
+        <label for="pettype">Pet Type:</label><br>
+        <input type="text" id="pettype" name="pettype" value="Dog"><br>
+        <label for="petage">Pet Age:</label><br>
+        <input type="number" id="petage" name="petage" value="3"><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<footer>
+    <p>©Paradigm Pet Professionals 2024</p>
+</footer>
+</body>
+</html>

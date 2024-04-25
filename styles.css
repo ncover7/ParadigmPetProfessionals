@@ -1,0 +1,221 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    background-color: #003B6D;
+}
+.logo1 {
+    width: 15%;
+    height: auto;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+}
+.logo2 {
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 15px;
+}
+.navbar {
+    background-color: #BDBDBD;
+}
+.currentPage {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    text-decoration: underline;
+}
+.navbar a {
+    text-decoration: none;
+    color: #003B6D;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropButton {
+    background-color: #BDBDBD;
+    color: #003B6D;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: "Times New Roman";
+}
+
+.dropButtonInUse {
+    background-color: #BDBDBD;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-family: "Times New Roman";
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #BDBDBD;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #003B6D;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar .searchContainer {
+    float: right;
+}
+
+.navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.navbar .searchContainer button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    background-color: #6699CC;
+    padding: 5px;
+}
+p, h1 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.adopt, .contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact, .conference {
+    margin-top: 15px;
+    width: 40%;
+}
+ul {
+    padding-left: 10%;
+    list-style-position: inside;
+}
+.ContactDiv a {
+    text-decoration: none;
+}
+.ContactUs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: #BDBDBD;
+    color: #003B6D;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 2px solid #676767;
+    cursor: pointer;
+    font-family: "Times New Roman";
+}
+
+footer {
+    background-color: #003B6D;
+    color: #BDBDBD;
+    text-align: center;
+    padding: 5px;
+}
+.title {
+    text-align: center;
+}
+form {
+    border-radius: 5px;
+    width: 50%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+form input[type=text], input[type=tel], input[type=email], input[type=number]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #676767;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type=submit] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BDBDBD;
+    color: #003B6D;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 2px solid #676767;
+    cursor: pointer;
+    font-family: "Times New Roman";
+}
+.catpics, .dogpics, .smallAnPics, .conference{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat1, .cat2, .dog1 {
+    width: 25%;
+}
+.cat3 {
+    width: 28%;
+}
+.dog2 {
+    width: 37%;
+}
+
+.dog3 {
+    width: 14%;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+.About p {
+    text-align: center;
+    font-size: 1.25rem;
+}
+.About ul {
+    margin-left: 26%;
+}
+.conference {
+    margin-left: auto;
+    margin-right: auto;
+}
